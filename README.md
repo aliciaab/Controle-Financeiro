@@ -1,11 +1,27 @@
-# Sample Snack app
+# Meu Controle Financeiro 💰
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este é um projeto de aplicativo mobile desenvolvido como parte da disciplina de Programação Mobile, do curso técnico de Desenvolvimento de Sistemas, lecionada pelo Professor Artur Scolari. O objetivo é criar um aplicativo pessoal para registrar, acompanhar e controlar despesas e receitas, com dados salvos de forma persistente.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Sobre o Projeto 📝
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+O "Meu Controle Financeiro" é um aplicativo para gerenciamento financeiro pessoal. Ele permite que o usuário registre diariamente suas receitas e despesas, categorizando os lançamentos para facilitar o acompanhamento. O app também oferece funcionalidades de ordenação dos registros e visualização gráfica da evolução financeira ao longo do tempo.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Tecnologias Utilizadas 🚀
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+* **React Native:** Framework para desenvolvimento de apps mobile.
+* **Expo:** Plataforma e conjunto de ferramentas para facilitar o desenvolvimento com React Native.
+* **JavaScript:** Linguagem de programação principal.
+* **AsyncStorage:** Para persistência de dados localmente no dispositivo.
+* **React Native Chart Kit:** Para a visualização de dados em gráficos.
+
+## Funcionalidades Principais ✨
+
+- [x] Criação, Edição e Exclusão de registros financeiros (receitas e despesas).
+- [x] Armazenamento local e persistente dos dados.
+- [x] Validação para não permitir a entrada de valores negativos incorretos.
+- [x] Ordenação dos registros por data, valor ou categoria.
+- [x] Visualização da evolução financeira em gráfico de linha ou barras.
+
+## Como Executar
+
+O aplicativo foi desenvolvido no ambiente Expo Snack e o arquivo de instalação para Android (`.apk`) pode ser encontrado na seção de **Releases** deste repositório.
